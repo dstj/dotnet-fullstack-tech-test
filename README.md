@@ -1,7 +1,15 @@
+# Fullstack technical test
+
+This project is a fullstack technical test for a job application. The .NET/Angular app uses historical weather information for a given location and date. It uses the Open Meteo API to get the weather data.
+
 ## Technical Stack
 
 * Angular 15
 * .NET 8
+
+### Open Weather API Documentation
+
+https://open-meteo.com/en/docs/historical-weather-api
 
 ### Database
 
@@ -19,3 +27,6 @@
 Some environments get the .NET error "There was an error exporting the HTTPS certificate to a file..." when trying to do `dotnet run`. To resolve, perform the following:
   * Run `dotnet dev-certs https -v` to validate that you have the Developper Certificate setup
   * Ensure the empty folder `%APPDATA%\ASP.NET\https` is exists.
+
+### Starting Point
+![Starting Point](<starting-point.png> "UI Starting Point of the application")
